@@ -52,10 +52,10 @@ Participants were shown **150 categorized images**, while their brain activity w
 ## 📂 Repository Structure
  File | Description |
 |------|-------------|
-| `define.py` | Core constants, paths, and parameter definitions used across the project. |
+| `define.py` | Implementation of EEG Classifier|
 | `extract_activations.py` | Extracts activations from Inception-V3 layers for use in EEG regression. |
 | `masking.py` | Applies masking to EEG channels to evaluate their impact on classification performance. |
 | `regression.py` | Performs regression from image model activations to EEG signals. |
-| `train.py` | Trains the EEGNet model to classify EEG recordings into abstract concept classes. |
-| `verify.py` | Validates and visualizes classification and regression results. |
+| `train.py` | Trains the EEGNet model to classify EEG recordings into abstract concept classes. Using define.py |
+| `verify.py` | Obtains Visualization and results/plots |
 
