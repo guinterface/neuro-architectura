@@ -1,55 +1,53 @@
-🧠 Neuro Architectura
+# 🧠 NeuroArchitectura: Encoding and Decoding Abstract Engineering Concepts from Visual Brain Signals
 
-This repository contains scripts and documentation for a project focused on applying machine learning regression techniques to EEG data. The goal is to predict continuous target variables (e.g., cognitive scores, stimuli strength) based on preprocessed EEG signals.
-📁 Project Structure
+**Author**: Guilherme Simioni Bonfim  
+**Date**: March 21st, 2025
 
-eeg-regression/
-│
-├── data/                    # Folder to store raw or processed EEG data (not included in repo)
-├── preprocessing/           # Scripts for data cleaning, filtering, and feature extraction
-│   └── preprocess.py
-│
-├── models/                  # Machine learning model definitions and training scripts
-│   └── train_model.py
-│
-├── utils/                   # Helper functions for loading data, metrics, etc.
-│   └── metrics.py
-│
-├── results/                 # Folder for saving model outputs, plots, and evaluations
-├── requirements.txt         # Python dependencies
-└── README.md                # You're here!
+---
 
-⚙️ Installation
+## 📚 Abstract
 
-Clone the repository and install dependencies:
+This project explores the neural basis of **abstract architectural and engineering concepts** — _Firmitas_ (structural robustness), _Utilitas_ (functional use), and _Venustas_ (aesthetic beauty) — through analysis of EEG signals recorded during visual thinking tasks.
 
-git clone https://github.com/your-username/eeg-regression.git
-cd eeg-regression
-pip install -r requirements.txt
+Participants were shown **150 categorized images**, while their brain activity was recorded via EEG. They were asked to consciously reflect on each concept while viewing. The analysis was carried out in two core directions:
 
-🧪 Usage
-1. Preprocess the EEG Data
+- 🧠 **Direct EEG Classification**
+- 🖼️ **Image Classifier-to-EEG Regression**
 
-python preprocessing/preprocess.py
+---
 
-2. Train the Model
+## 🔍 Methodology
 
-python models/train_model.py
+### 1. Direct EEG Classification
+- Leveraged the **EEGNet architecture** to classify EEG signals by abstract class.
+- **Channel activation analysis** revealed key involvement of:
+  - 🟢 *Occipital Cortex* (early visual processing)
+  - 🔵 *Anterior Prefrontal Cortex* (higher-order cognition)
+- A **channel masking procedure** assessed the importance of specific regions.
 
-📊 Results
+### 2. Image Classifier-to-EEG Regression
+- Trained an **Inception-V3** model on the image dataset.
+- Performed **layer-wise regression** to predict EEG signals from model activations.
+- Found strongest alignment with **early convolutional layers**, indicating lower-level visual representations play a significant role.
 
-Results such as loss curves and model performance are saved in the results/ folder.
-📚 Dataset
+---
 
-    Note: Due to size/privacy, the dataset is not included here.
+## 🧪 Key Findings
 
-You can download the dataset and place it in the data/ folder. See Project Report for details.
-🔗 Citation
+- EEG signals **encode meaningful distinctions** between _Firmitas_, _Utilitas_, and _Venustas_.
+- Brain activity reflects **basic visual and higher cognitive processing**, rather than deeper motor or abstract visual discriminations.
+- Regression results show **limited overlap** between EEG signals and deeper neural network layers.
 
-If you use this code or reference this project in your research, please cite:
+---
 
-Guilherme Simioni Bonfim. (2025). Neuro Architectura. GitHub repository: https://github.com/guinterface/neuro-architectura
+## 🚀 Future Directions
 
-📬 Contact
+- 🧠 Increase dataset size and diversity
+- 🤝 Integrate **multimodal approaches** (e.g. fMRI, eye-tracking)
+- 🔬 Explore **temporal dynamics** of abstract concept formation
+- 🤖 Improve alignment between biological and artificial neural representations
 
-For questions, feel free to open an issue or reach out to gsbonfim@stanford.edu
+---
+
+## 📂 Repository Structure
+
