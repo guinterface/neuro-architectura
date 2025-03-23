@@ -1,4 +1,4 @@
-# 🧠 NeuroArchitectura: Encoding and Decoding Abstract Engineering Concepts from Visual Brain Signals
+#  NeuroArchitectura: Encoding and Decoding Abstract Engineering Concepts from Visual Brain Signals
 
 **Author**: Guilherme Simioni Bonfim  
 **Date**: March 21st, 2025
@@ -11,18 +11,18 @@ This project explores the neural basis of **abstract architectural and engineeri
 
 Participants were shown **150 categorized images**, while their brain activity was recorded via EEG. They were asked to consciously reflect on each concept while viewing. The analysis was carried out in two core directions:
 
-- 🧠 **Direct EEG Classification**
-- 🖼️ **Image Classifier-to-EEG Regression**
+-  **Direct EEG Classification**
+- 🖼 **Image Classifier-to-EEG Regression**
 
 ---
 
-## 🔍 Methodology
+##  Methodology
 
 ### 1. Direct EEG Classification
 - Leveraged the **EEGNet architecture** to classify EEG signals by abstract class.
 - **Channel activation analysis** revealed key involvement of:
-  - 🟢 *Occipital Cortex* (early visual processing)
-  - 🔵 *Anterior Prefrontal Cortex* (higher-order cognition)
+  -  *Occipital Cortex* (early visual processing)
+  -  *Anterior Prefrontal Cortex* (higher-order cognition)
 - A **channel masking procedure** assessed the importance of specific regions.
 
 ### 2. Image Classifier-to-EEG Regression
@@ -32,22 +32,13 @@ Participants were shown **150 categorized images**, while their brain activity w
 
 ---
 
-## 🧪 Key Findings
+##  Key Findings
 
 - EEG signals **encode meaningful distinctions** between _Firmitas_, _Utilitas_, and _Venustas_.
 - Brain activity reflects **basic visual and higher cognitive processing**, rather than deeper motor or abstract visual discriminations.
 - Regression results show **limited overlap** between EEG signals and deeper neural network layers.
 
----
 
-## 🚀 Future Directions
-
-- 🧠 Increase dataset size and diversity
-- 🤝 Integrate **multimodal approaches** (e.g. fMRI, eye-tracking)
-- 🔬 Explore **temporal dynamics** of abstract concept formation
-- 🤖 Improve alignment between biological and artificial neural representations
-
----
 
 ## 📂 Repository Structure
  File | Description |
